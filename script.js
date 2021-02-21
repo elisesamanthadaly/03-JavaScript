@@ -12,7 +12,7 @@ function writePassword() {
     //Initial prompt for length choice
     var lengthChoice = prompt("How many characters would you like your password to contain? Please input a value between 8 and 128, using numeric characters.");
 
-    //Repeats length prompt if user selects an invalid option (cancel/blank submission, non-numeric input, out-of-range input)
+    //Repeats length prompt if user makes an invalid input (cancel/blank submission, non-numeric input, out-of-range input)
     while (lengthChoice === null || isNaN(lengthChoice) || lengthChoice < 8 || lengthChoice > 128) {
       if (lengthChoice === null || lengthChoice === "") {
         alert("Please input a password length.");
