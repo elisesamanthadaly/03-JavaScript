@@ -10,7 +10,7 @@ The password generator can be found [here](https://elisesamanthadaly.github.io/2
 
 Click the red "Generate Password" button at the center of the screen to begin.
 
-Input a desired password length between 8 and 128, using numeric characters ("8" instead of "eight").
+Input a desired password length between 8 and 128, using numeric characters ("8" instead of "eight"). Noninteger values will be rounded up  (e.g. a length choice of 8.01 will result in a 9-character password).
 
 Choose which of the four possible character sets to include in the password. At least one set must be chosen.
 

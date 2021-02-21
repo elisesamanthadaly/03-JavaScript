@@ -74,7 +74,7 @@ function writePassword() {
     //Final character set is a combination of the four individual sets
     var characterSet = (lowercaseSet + uppercaseSet + numericSet + specialSet);
 
-    //Builds a random string of text as long as the user's length choice from the characters in the final character set
+    //Builds a random string of text as long as the user's length choice from the characters in the final character set. Length choice is rounded up to the nearest interger
     var i;
     var randomText = "";
     for (i = 0; i < lengthChoice; i++) {
