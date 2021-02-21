@@ -1,7 +1,7 @@
 # 2-13-21-Homework
 # 03 JavaScript: Password Generator
 
-This a random password generator. Users can select desired password length and any combination of four possible character sets (lowercase letters, uppercase letters, numbers, and special characters) to include in the password.
+This is a random password generator. Users can select desired password length and any combination of four possible character sets (lowercase letters, uppercase letters, numbers, and special characters) to include in the password.
 
 You can find the password generator [here](https://elisesamanthadaly.github.io/2-13-21-Homework/).
 
